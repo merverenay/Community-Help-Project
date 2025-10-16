@@ -1,0 +1,110 @@
+.postShow-mainDiv {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    background-color: white;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.postShow-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.avatar-container {
+    display: flex;
+    align-items: center;
+}
+
+.close-button {
+    background-color: aliceblue;
+    border-radius: 50%;
+    border: none;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.postShow-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.postShow-status,
+.postShow-adress {
+    display: inline-block;
+    margin: 10px 0;
+    color: #333;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    width: auto;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+
+.postShow-image {
+    flex-grow: 1;
+    /* Allow the image container to take up remaining space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-top: 10px;
+    height: 400px;
+    /* Ensure the image container takes up available height */
+}
+
+.postShow-image img {
+    width: auto;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    /* Ensure the image covers the container without distortion */
+}
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* semi-transparent background */
+    z-index: 5;
+    display: none;
+    /* initially hidden */
+}
+
+/* 
+.overlay.show {
+    display: block;
+    
+} */
+
+.withdrawButton {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.withdrawButton:hover {
+    background-color: darkred;
+}

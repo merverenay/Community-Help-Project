@@ -1,0 +1,60 @@
+/* Profil.css */
+
+.profilPageDiv {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+}
+
+.profilMainDiv {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    margin-top: 15%;
+  }
+  
+  h3 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .Profile.Box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .nameDiv,
+  .emailDiv {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #666;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    .profilMainDiv {
+      width: 80%;
+    }
+  }
+  
