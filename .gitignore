@@ -1,0 +1,19 @@
+# Node and build folders
+node_modules/
+*.log
+dist/
+build/
+.cache/
+.env
+
+# macOS files
+.DS_Store
+
+# Frontend/Backend specific
+imdat-frontend/node_modules/
+imdat-frontend/build/
+imdat-frontend/.cache/
+imdat-backend/node_modules/
+imdat-backend/dist/
+
+
